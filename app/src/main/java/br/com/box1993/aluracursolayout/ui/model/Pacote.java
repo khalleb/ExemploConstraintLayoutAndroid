@@ -1,12 +1,13 @@
 package br.com.box1993.aluracursolayout.ui.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * Created by khalleb on 17/01/18.
  */
 
-public class Pacote {
+public class Pacote implements Serializable {
 
     private final String local;
     private final String imagem;
